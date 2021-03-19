@@ -6,50 +6,88 @@
     <title>DaVinch Resolveの使い方</title>
     <link rel="stylesheet" href="style.css">
     <style>
-      
+.iframe-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* アスペクト比16:9の場合 */
+    padding-top: 0px;
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 2rem; /* YouTubeの下に余白をつける */
+}
+.iframe-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
     </style>
   </head>
   <body>
-    <p class="title">動画編集ソフト DaVinci Resolveの使い方</p>
-    <h1>DaVinci Resolveの紹介とインストール、初期設定</h1>
+    <p class="title">20分でわかる！<br>
+      動画編集ソフト DaVinci Resolveの使い方</p>
+    <b>目次</b><br>
+    <ol id="mozToc">
+      <!--mozToc h1 1 h2 2-->
+      <li><a href="#mozTocId797930">DaVinci Resolveの紹介とインストール、初期設定</a></li>
+      <li><a href="#mozTocId91107">基本の使い方</a></li>
+      <li><a href="#mozTocId195539">動画の書き出し方法</a></li>
+      <li><a href="#mozTocId814524">テロップを入れよう</a></li>
+      <li><a href="#mozTocId992113">必須の操作・ショートカットキー</a></li>
+      <li><a href="#mozTocId351953">トランジションを入れよう</a></li>
+      <li><a href="#mozTocId513004">動画の一時停止</a></li>
+      <li><a href="#mozTocId671424">強調表示</a>
+        <ol>
+          <li><a href="#mozTocId151498">拡大表示する</a></li>
+          <li><a href="#mozTocId427659">カーソルなどを出す</a></li>
+          <li><a href="#mozTocId9767">枠で囲む</a></li>
+          <li><a href="#mozTocId865797">一部を除きグレーアウトする</a></li>
+        </ol>
+      </li>
+    </ol>
+    <h1><a id="mozTocId797930" class="mozTocH1"></a>DaVinci Resolveの紹介とインストール、初期設定</h1>
     <p>無料で使えるのに高機能な動画編集ソフト「DaVinci Resolve」の紹介を紹介します。</p>
     <p>インストールして初期設定を行いましょう！</p>
-    <h1>編集して出力してみよう</h1>
-    <p>画面構成・UIの説明、素材となる動画データの読み込み、カット編集、動画の書き出しのやり方を解説します。</p>
-    <h1>字幕を入れよう</h1>
-    <p>動画に字幕（テキスト）を入れる方法を解説します。</p>
-    <p>字幕を入れる方法は何種類かありますが、この動画では「Text+」という機能を解説します。</p>
-    <h1>トランジションを入れよう</h1>
-    <p>異なる2つの動画を切り替える際に、パッと切り替えるのではなく、なめらかに切り替えたり特殊効果と共に切り替えたりすることを「トランジション」と呼びます。</p>
-    <table class="noborder">
-      <tbody>
-        <tr>
-          <td class="noborder">Transitionなし<br>
-            <img src="image/TransitionOff.gif" alt=""></td>
-          <td class="noborder">Transitionあり<br>
-            <img src="image/TransitionOn.gif" alt=""></td>
-        </tr>
-      </tbody>
-    </table>
-    <p><br>
-    </p>
-    <p>この動画では、トランジションの使い方を解説します。</p>
-    <p><br>
-    </p>
-    <h1>動画の一時停止</h1>
-    <p>ゲームのプレイ動画やPVを作る場合、ある場面で一時停止して解説などを行いたい場合があるでしょう。動画を一時停止する方法を解説します。</p>
-    <h1>強調表示</h1>
-    <p>ゲームのプレイ動画やPVを作る場合、画面の一部を指し示したり拡大表示したりして、強調表示を行いたいことがあるでしょう。そのやり方を解説します。</p>
-    <h2>拡大表示する</h2>
-    <h2>カーソルなどを出す</h2>
-    <h2>枠で囲む</h2>
-    <h2>一部を除きグレーアウトする</h2>
-    <h1>必須の操作・ショートカットキー</h1>
+    <p><a href="https://drive.google.com/file/d/1jdF9n-XGe4_TZJFiJUS9mF5bvoLiYrlZ/view?usp=sharing"
+        target="_blank">インストーラーはこちら</a></p>
+    <p> </p>
+    <div class="iframe-wrapper"><iframe src="https://www.youtube.com/embed/jNYkTuWvG88"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen="" height="315" width="560"></iframe></div>
+    <p></p>
+    <h1><a id="mozTocId91107" class="mozTocH1"></a>基本の使い方</h1>
+    <p>画面構成・UIの説明、素材となる動画データの読み込み、カット編集のやり方を解説します。</p>
+    <p> </p>
+    <div class="iframe-wrapper"><iframe src="https://www.youtube.com/embed/_m3enZCWSKo"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen="" height="315" width="560"></iframe></div>
+    <p></p>
+    <h1><a id="mozTocId195539" class="mozTocH1"></a>動画の書き出し方法</h1>
+    <p>編集した動画を出力する方法を解説します。</p>
+    <p> </p>
+    <div class="iframe-wrapper"><iframe src="https://www.youtube.com/embed/5r457N4p44c"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen="" height="315" width="560"></iframe></div>
+    <p></p>
+    <h1><a id="mozTocId814524" class="mozTocH1"></a>テロップを入れよう</h1>
+    <p>動画にテロップを入れる方法を解説します。</p>
+    <p>テロップを入れる方法は何種類かありますが、この動画では「Text+」という機能を解説します。</p>
+    <p> </p>
+    <div class="iframe-wrapper"><iframe src="https://www.youtube.com/embed/eI1cbWMV8gM"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen="" height="315" width="560"></iframe></div>
+    <p></p>
+    <h1><a id="mozTocId992113" class="mozTocH1"></a>必須の操作・ショートカットキー</h1>
+    <p>よく使う、これだけは覚えておきたいショートカットキーです。</p>
     <table>
       <tbody>
         <tr>
           <td><b>キー</b></td>
           <td><b>説明</b></td>
+        </tr>
+        <tr>
+          <td>Ctrl+B</td>
+          <td>クリップの分割</td>
         </tr>
         <tr>
           <td>Delete</td>
@@ -64,8 +102,12 @@
           <td>プレビューの再生/停止</td>
         </tr>
         <tr>
-          <td>Ctrl+B</td>
-          <td>クリップの分割</td>
+          <td>L</td>
+          <td>再生。2度、3度押すと早送りとなる</td>
+        </tr>
+        <tr>
+          <td>J</td>
+          <td>逆再生。Lの逆</td>
         </tr>
         <tr>
           <td>Alt＋マウスホイール回転</td>
@@ -76,13 +118,13 @@
           <td>タイムラインのスクロール</td>
         </tr>
         <tr>
-          <td>Alt+ドラッグ</td>
+          <td>クリップをAlt押しながらドラッグ</td>
           <td>クリップのコピー</td>
         </tr>
         <tr>
           <td>Alt+Y<br>
           </td>
-          <td>前方（右側）のクリップを全て選択する<br>
+          <td>カーソルより前方（右側）のクリップを全て選択する<br>
           </td>
         </tr>
         <tr>
@@ -101,7 +143,82 @@
     </table>
     <p><br>
     </p>
+    <p>ここまでの内容が理解できていれば、プレイ動画や簡単なPVなら作れるはずです。<br>
+      ここから先は、より凝った表現を行いたいときに必要となってくるテクニックを紹介します。</p>
+    <p> </p>
+    <h1><a id="mozTocId351953" class="mozTocH1"></a>トランジションを入れよう</h1>
+    <p>異なる2つの動画を切り替える際に、パッと切り替えるのではなく、なめらかに切り替えたり特殊効果と共に切り替えたりするエフェクトのことを「トランジション」と呼びます。</p>
+    <table class="noborder">
+      <tbody>
+        <tr>
+          <td class="noborder">Transitionなし<br>
+            <img src="image/TransitionOff.gif" alt=""></td>
+          <td class="noborder">Transitionあり<br>
+            <img src="image/TransitionOn.gif" alt=""></td>
+        </tr>
+      </tbody>
+    </table>
     <p><br>
     </p>
+    <p> この動画では、トランジションの使い方を解説します。 </p>
+    <p> </p>
+    <div class="iframe-wrapper"><iframe src="https://www.youtube.com/embed/cqzvRWx1-U4"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen="" height="315" width="560"></iframe></div>
+    <p></p>
+    <p> </p>
+    <p> </p>
+    <h1><a id="mozTocId513004" class="mozTocH1"></a>動画の一時停止</h1>
+    <p> ゲームのプレイ動画やPVを作る場合、ある場面で一時停止して解説などを行いたい場合があるでしょう。</p>
+    <img src="image/Freeze.gif" alt="">
+    <p>このように、動画を一時停止する方法を解説します。 </p>
+    <p> </p>
+    <div class="iframe-wrapper"><iframe src="https://www.youtube.com/embed/ER8Ry23bW2g"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen="" height="315" width="560"></iframe></div>
+    <p></p>
+    <h1><a id="mozTocId671424" class="mozTocH1"></a>強調表示</h1>
+    <p>ゲームのプレイ動画やPVを作る場合、画面の一部を指し示したり拡大表示したりして、強調表示を行いたいことがあるでしょう。その様々なやり方を解説していきます。</p>
+    <h2><a id="mozTocId151498" class="mozTocH2"></a>拡大表示する</h2>
+    <img src="image/Zoom.gif" alt="">
+    <p>このように画面の一部を拡大表示するやり方を解説します。</p>
+    <p> </p>
+    <div class="iframe-wrapper"><iframe src="https://www.youtube.com/embed/RzsQncbj_mE"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen="" height="315" width="560"></iframe></div>
+    <p></p>
+    <h2><a id="mozTocId427659" class="mozTocH2"></a>カーソルなどを出す</h2>
+    <img src="image/Cursor.gif" alt="">
+    <p>カーソルなどの画像を出して、画面の特定の部分を指し示す方法を解説します。</p>
+    <p><br>
+    </p>
+    <p>動画内で使っている指の画像はこちらです：</p>
+    <img src="image/%E6%8C%87%E5%B7%AE%E3%81%97.png" alt="" style="width: 150px; height: 90px;">
+    <p><br>
+    </p>
+    <p> </p>
+    <div class="iframe-wrapper"><iframe src="https://www.youtube.com/embed/83FK8cWDwNQ"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen="" height="315" width="560"></iframe></div>
+    <p></p>
+    <h2><a id="mozTocId9767" class="mozTocH2"></a>枠で囲む</h2>
+    <p><img src="image/Frame.gif" alt=""></p>
+    <p>四角い枠で囲む表示のやり方を解説します。</p>
+    <br>
+    <p> </p>
+    <div class="iframe-wrapper"><iframe src="https://www.youtube.com/embed/ESm7x0eXIwY"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen="" height="315" width="560"></iframe></div>
+    <p></p>
+    <h2><a id="mozTocId865797" class="mozTocH2"></a>一部を除きグレーアウトする</h2>
+    <p><img src="image/GrayOut.gif" alt=""> </p>
+    <p>画面の一部を除いて暗くグレーアウトさせる方法を解説します。</p>
+    <p><br>
+    </p>
+    <p> </p>
+    <div class="iframe-wrapper"><iframe src="https://www.youtube.com/embed/e2IsagS1yoo"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen="" height="315" width="560"></iframe></div>
+    <p></p>
   </body>
 </html>
